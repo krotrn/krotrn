@@ -1,5 +1,7 @@
+
 # 💫 About Me:
 🌱 I’m currently learning Data Structure and Algorithm, <br>Front-End Web Development<br>
+<div align='center'>
 
 
 # 💻 Tech Stack:
@@ -10,8 +12,8 @@
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=activity)](https://Leetcode.com/krotrn) 
 
 # 📊 GitHub Stats:
-[![](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&include_all_commits=false&count_private=false)](https://github.com/krotrn?tab=repositories)</br>
-[![](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)</br>
+[![](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&include_all_commits=false&count_private=false)](https://github.com/krotrn?tab=repositories)
+[![](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 [![](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 
 ### 🔝 Top Contributed Repo
@@ -23,6 +25,8 @@
 
 ## 🏆 GitHub Trophies
 [![](https://github-profile-trophy.vercel.app/?username=krotrn&theme=algolia&no-frame=true&no-bg=false&margin-w=4)](https://github.com/krotrn/)
+
+</div>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=krotrn&label=Profile%20Views&color=1&icon=2&pretty=true)](https://github.com/krotrn/)
