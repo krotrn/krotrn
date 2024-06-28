@@ -12,8 +12,8 @@
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=activity)](https://Leetcode.com/krotrn) 
 
 # 📊 GitHub Stats:
+[![](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)</br>
 [![](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&include_all_commits=false&count_private=false)](https://github.com/krotrn?tab=repositories)
-[![](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 [![](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 
 ### 🔝 Top Contributed Repo
