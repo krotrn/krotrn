@@ -16,7 +16,6 @@
 <br/>
 ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-%23593d88.svg?style=for-the-badge&logo=redux)
 ![React Router](https://img.shields.io/badge/React%20Router%20Dom-%23000.svg?style=for-the-badge&logo=reactrouter)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 
 # Leet Code Stats:
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=activity)](https://Leetcode.com/krotrn) 
