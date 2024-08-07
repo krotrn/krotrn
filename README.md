@@ -18,7 +18,7 @@
 ![React Router](https://img.shields.io/badge/React%20Router%20Dom-%23000.svg?style=for-the-badge&logo=reactrouter)
 
 # Leet Code Stats:
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://Leetcode.com/u/krotrn) 
+[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://Leetcode.com/krotrn) 
 
 # 📊 GitHub Stats:
 [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
