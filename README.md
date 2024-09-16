@@ -19,7 +19,10 @@
 ![React Router](https://img.shields.io/badge/React%20Router%20Dom-%23000.svg?style=for-the-badge&logo=reactrouter)
 
 # Leet Code Stats:
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://Leetcode.com/u/krotrn) 
+[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://Leetcode.com/u/krotrn)</br> 
+<img src="https://leetcode-badge-showcase.vercel.app/api?username=krotrn&animated=true&theme=black&hide_border=true" alt="LeetCode Badges"/></br>
+[![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FKrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/Krotrn/)
+[![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FKrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/Krotrn/)
 
 # 📊 GitHub Stats:
 [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
@@ -39,13 +42,6 @@
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge)](https://facebook.com/karan.sah.7798) 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/karan__sahh) 
 
-## LeetCode Stats
-<img src="https://leetcode-badge-showcase.vercel.app/api?username=krotrn&animated=true" alt="LeetCode Badges"/>
-<br/>
-
-
-[![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FKrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/Krotrn/)
-[![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FKrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/Krotrn/)
 
 
 ## 🏆 GitHub Trophies
