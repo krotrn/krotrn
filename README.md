@@ -25,9 +25,9 @@
 [![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FKrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/Krotrn/)
 
 # 📊 GitHub Stats:
-[![Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
-</br>
 [![Language](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
+</br>
+[![Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 [![Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 
 ### 🔝 Top Contributed Repo
