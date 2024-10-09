@@ -29,10 +29,10 @@
 </br>
 [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 [![Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
-
+<!--
 ### 🔝 Top Contributed Repo
 [![Top Repo](https://github-contributor-stats.vercel.app/api?username=krotrn&limit=5&theme=algolia&combine_all_yearly_contributions=true&hide_border=true)](https://github.com/krotrn/)
-
+-->
 ## 🌐 Socials:
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://Leetcode.com/krotrn)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/krotrn) 
