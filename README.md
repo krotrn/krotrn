@@ -1,6 +1,6 @@
 
 # 💫 About Me:
-🌱 I’m currently learning Data Structure and Algorithm, <br>Front-End Web Development<br>
+![Intro](https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=600&size=22&duration=3000&pause=2000&color=00AEFF&center=true&vCenter=true&multiline=true&random=true&width=1200&height=91&lines=+++++++I%E2%80%99m+currently+learning+Data+Structure+and+Algorithm+and+Full+Stack+Web+Development;Welcome+to+my+GitHub+Profile;Hi%2C+I+am+%40krotrn)
 <div align='center'>
 
 
