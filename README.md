@@ -2,10 +2,14 @@
 # 💫 About Me:
 ![Intro](https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=600&size=22&duration=3000&pause=2000&color=00AEFF&center=true&vCenter=true&multiline=true&random=true&width=1200&height=91&lines=+Hi+there%2C+I'm+Karan+Kumar+Sah+%40krotrn;Passionate+about+Full-Stack+Development+and+DSA;Aspiring+AI%2FML+Engineer+%7C+Open+Source+Contributor)
 
-👋 Welcome to my GitHub profile! I am a **Computer Science And Engineering** student at **NIT Arunachal Pradesh**, specializing in **Full Stack Web Development** and **Data Structures and Algorithms**. Currently honing my skills in **Next.js**, **Node.js**, and **Express.js**, and looking forward to exploring **AI/ML** in the future.
+👋 Welcome to my GitHub profile! I am a **Computer Science And Engineering** student at **National Institute of Technology, Arunachal Pradesh**, specializing in **Full Stack Web Development** and **Data Structures and Algorithms**. Currently honing my skills in **Back-End Development**, and looking forward to exploring **AI/ML** in the future.
 
 🌱 I’m deeply passionate about coding, solving problems on platforms like LeetCode, and learning new technologies to create impactful projects.
 
+## 🌱 **Learning Roadmap**:
+- 🌐 Deepening my knowledge in **Back-End Development** for Full Stack Development.
+- 🔄 Continuously improving problem-solving skills on **LeetCode**.
+- 🤖 Exploring **AI/ML** concepts to prepare for future learning.
 
 <div align='center'>
   
@@ -26,15 +30,15 @@
 ![React Router](https://img.shields.io/badge/React%20Router%20Dom-%23000.svg?style=for-the-badge&logo=reactrouter)
 
 ### Back-End:
-![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Styling:
 ![Tailwind CSS](https://img.shields.io/badge/Tailwindcss-%23000.svg?style=for-the-badge&logo=tailwindcss)
 
 
 <!--![NextJs](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)-->
-<!--![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)-->
 <div align='center'>
 
 ## 🚀 LeetCode Progress:
@@ -55,10 +59,6 @@
 
 </div>
 
-## 🌱 **Learning Roadmap**:
-- 🌐 Deepening my knowledge in **Next.js** and **Express.js** for Full Stack Development.
-- 🔄 Continuously improving problem-solving skills on **LeetCode**.
-- 🤖 Exploring **AI/ML** concepts to prepare for future learning.
 
 ---
 
