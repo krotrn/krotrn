@@ -1,7 +1,7 @@
 
 # 💫 About Me:
-![Intro](https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=600&size=22&duration=3000&pause=2000&color=00AEFF&center=true&vCenter=true&multiline=true&random=true&width=1200&height=91&lines=+++Hi+there%2C+I'm+Karan+Kumar+Sah+%40krotrn;Passionate+about+Full-Stack+Development+and+DSA;Aspiring+AI%2FML+Engineer+%7C+Open+Source+Contributor)
-
+<!--![Intro](https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=600&size=22&duration=3000&pause=2000&color=00AEFF&center=true&vCenter=true&multiline=true&random=true&width=1200&height=91&lines=+++Hi+there%2C+I'm+Karan+Kumar+Sah+%40krotrn;Passionate+about+Full-Stack+Development+and+DSA;Aspiring+AI%2FML+Engineer+%7C+Open+Source+Contributor)
+-->
 👋 Welcome to my GitHub profile! I am a **Computer Science And Engineering** student at **National Institute of Technology, Arunachal Pradesh**, specializing in **Full Stack Web Development** and **Data Structures and Algorithms**. Currently honing my skills in **Back-End Development**, and looking forward to exploring **AI/ML** in the future.
 
 🌱 I’m deeply passionate about coding, solving problems on platforms like LeetCode, and learning new technologies to create impactful projects.
