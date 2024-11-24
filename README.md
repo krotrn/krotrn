@@ -1,16 +1,19 @@
 
 # 💫 About Me:
-<!--![Intro](https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=600&size=22&duration=3000&pause=2000&color=00AEFF&center=true&vCenter=true&multiline=true&random=true&width=1200&height=91&lines=+++Hi+there%2C+I'm+Karan+Kumar+Sah+%40krotrn;Passionate+about+Full-Stack+Development+and+DSA;Aspiring+AI%2FML+Engineer+%7C+Open+Source+Contributor)
--->
-👋 Welcome to my GitHub profile! I am a **Computer Science And Engineering** student at **National Institute of Technology, Arunachal Pradesh**, specializing in **Full Stack Web Development** and **Data Structures and Algorithms**. Currently honing my skills in **Back-End Development**, and looking forward to exploring **AI/ML** in the future.
+👋 Hello, and welcome to my GitHub profile!
 
-🌱 I’m deeply passionate about coding, solving problems on platforms like LeetCode, and learning new technologies to create impactful projects.
+I am Karan Kumar Sah, a **Computer Science and Engineering** student at the **National Institute of Technology, Arunachal Pradesh**. With a strong focus on **Full Stack Web Development** and **Data Structures & Algorithms**, I am dedicated to crafting scalable and impactful software solutions.
+
+Currently, I am sharpening my skills in **Back-End Development** and exploring the vast potential of **AI/ML** technologies to stay ahead in the ever-evolving tech landscape.
 
 ## 🌱 **Learning Roadmap**:
-- 🌐 Deepening my knowledge in **Back-End Development** for Full Stack Development.
-- 🔄 Continuously improving problem-solving skills on **LeetCode**.
-- 🤖 Exploring **AI/ML** concepts to prepare for future learning.
+🌐 Enhancing expertise in **Back-End Development** as part of my full-stack learning journey.
 
+🔢 Strengthening problem-solving skills on **LeetCode** and **competitive programming** platforms.
+
+🤖 Beginning foundational work in **AI/ML** to prepare for future specialization.
+
+🧩 Building and contributing to real-world projects that reflect practical, industry-relevant skills.
 <div align='center'>
   
 ## 💻 Tech Stack:
@@ -50,6 +53,8 @@
 <div align='center'>
   
 ## 📊 GitHub Stats:
+</div>
+
 [![Krotrn's GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true&height=800)](https://github.com/krotrn?tab=repositories)
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true&layout=compact)](https://github.com/krotrn?tab=repositories)
@@ -57,14 +62,11 @@
 ### 🏆 GitHub Achievements:
 [![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=algolia&no-frame=true&no-bg=false&margin-w=4)](https://github.com/krotrn/)
 
-</div>
-
 
 ---
 
 ## 🌐 Socials:
 ### Connect with me:
-<!--[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/krotrn)-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/krotrn)
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white&style=for-the-badge)](https://x.com/karan__sahh)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/karan__sahh)
