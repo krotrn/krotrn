@@ -56,8 +56,8 @@ Currently, I am sharpening my skills in **Back-End Development** and exploring t
 </div>
 
 [![Krotrn's GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true&height=800)](https://github.com/krotrn?tab=repositories)
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true&layout=compact)](https://github.com/krotrn?tab=repositories)
+<!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true&height=800)](https://github.com/krotrn?tab=repositories) -->
 
 ### 🏆 GitHub Achievements:
 [![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=algolia&no-frame=true&no-bg=false&margin-w=4)](https://github.com/krotrn/)
