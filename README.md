@@ -1,4 +1,3 @@
-
 # 💫 About Me:
 👋 Hello, and welcome to my GitHub profile!
 
@@ -6,14 +5,21 @@ I am Karan Kumar Sah, a **Computer Science and Engineering** student at the **Na
 
 Currently, I am sharpening my skills in **Back-End Development** and exploring the vast potential of **AI/ML** technologies to stay ahead in the ever-evolving tech landscape.
 
+---
+
+## ✨ Quote:
+**"Code with passion, build with purpose."**
+
+---
+
 ## 🌱 **Learning Roadmap**:
-🌐 Enhancing expertise in **Back-End Development** as part of my full-stack learning journey.
-
-🔢 Strengthening problem-solving skills on **LeetCode** and **competitive programming** platforms.
-
-🤖 Beginning foundational work in **AI/ML** to prepare for future specialization.
-
+🌐 Enhancing expertise in **Back-End Development** as part of my full-stack learning journey.  
+🔢 Strengthening problem-solving skills on **LeetCode** and **competitive programming** platforms.  
+🤖 Beginning foundational work in **AI/ML** to prepare for future specialization.  
 🧩 Building and contributing to real-world projects that reflect practical, industry-relevant skills.
+
+---
+
 <div align='center'>
   
 ## 💻 Tech Stack:
@@ -40,37 +46,38 @@ Currently, I am sharpening my skills in **Back-End Development** and exploring t
 ### Styling:
 ![Tailwind CSS](https://img.shields.io/badge/Tailwindcss-%23000.svg?style=for-the-badge&logo=tailwindcss)
 
+---
 
-<!--![NextJs](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)-->
 <div align='center'>
 
 ## 🚀 LeetCode Progress:
 </div>
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)
-[![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fkrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/krotrn/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)  
+[![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fkrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/krotrn/)  
 [![LeetCode user Krotrn](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fkrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/krotrn/)
+
+---
+
 <div align='center'>
-  
+
 ## 📊 GitHub Stats:
 </div>
 
-[![Krotrn's GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true&layout=compact)](https://github.com/krotrn?tab=repositories)
+[![Krotrn's GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)  
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true&layout=compact)](https://github.com/krotrn?tab=repositories)  
 <!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=krotrn&theme=algolia&hide_border=true&height=800)](https://github.com/krotrn?tab=repositories) -->
 
 ### 🏆 GitHub Achievements:
 [![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=algolia&no-frame=true&no-bg=false&margin-w=4)](https://github.com/krotrn/)
-
 
 ---
 
 ## 🌐 Socials:
 ### Connect with me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/krotrn)
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white&style=for-the-badge)](https://x.com/karan__sahh)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/karan__sahh)
-
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/krotrn)
 
 ---
+
 [![Views](https://visitcount.itsvg.in/api?id=krotrn&label=Profile%20Views&color=1&icon=2&pretty=true)](https://github.com/krotrn/)
