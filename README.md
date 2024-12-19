@@ -3,7 +3,7 @@
 
 I am Karan Kumar Sah, a **Computer Science and Engineering** student at the **National Institute of Technology, Arunachal Pradesh**. With a strong focus on **Full Stack Web Development** and **Data Structures & Algorithms**, I am dedicated to crafting scalable and impactful software solutions.
 
-Currently, I am sharpening my skills in **Back-End Development** and exploring the vast potential of **AI/ML** technologies to stay ahead in the ever-evolving tech landscape.
+Currently, I am sharpening my skills in **Nextjs** and exploring the vast potential of **AI/ML** technologies to stay ahead in the ever-evolving tech landscape.
 
 ---
 
@@ -13,7 +13,7 @@ Currently, I am sharpening my skills in **Back-End Development** and exploring t
 ---
 
 ## 🌱 **Learning Roadmap**:
-🌐 Enhancing expertise in **Back-End Development** as part of my full-stack learning journey.  
+🌐 Enhancing expertise in **Nextjs** as part of my full-stack learning journey.  
 🔢 Strengthening problem-solving skills on **LeetCode** and **competitive programming** platforms.  
 🤖 Beginning foundational work in **AI/ML** to prepare for future specialization.  
 🧩 Building and contributing to real-world projects that reflect practical, industry-relevant skills.
