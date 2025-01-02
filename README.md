@@ -4,7 +4,7 @@
 I am **Karan Kumar Sah**, a **Computer Science and Engineering** student at the **National Institute of Technology, Arunachal Pradesh**. I am passionate about building scalable and efficient software solutions with a strong foundation in **Full Stack Web Development** and **Data Structures & Algorithms**.  
 
 Currently, I am:  
-- 🌱 Mastering **Next.js** and **Node.js** to strengthen my full-stack capabilities.  
+- 🌱 Mastering **Next.js** to strengthen my full-stack capabilities.  
 - 🔢 Sharpening problem-solving skills on **LeetCode** and competitive programming platforms.  
 - 🤖 Exploring foundational concepts in **AI/ML** to align with future technologies.  
 
@@ -16,8 +16,8 @@ Currently, I am:
 ---
 
 ## 🌱 **Learning Roadmap**:
-- 🌐 Advancing skills in **Next.js**, **Express.js**, and **MongoDB** for full-stack development.  
-- 🔢 Improving problem-solving techniques in **Graph**, **Dynamic Programming**, and **Segment Trees**.  
+- 🌐 Advancing skills in **Next.js** for full-stack development.  
+- 🔢 Improving problem-solving techniques in **Segment Trees**.  
 - 🚀 Working on impactful, real-world projects aligned with industry standards.  
 - 📊 Exploring **AI/ML** to build innovative applications in the near future.
 
