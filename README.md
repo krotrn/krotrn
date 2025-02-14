@@ -70,7 +70,7 @@ Currently, I am:
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true&layout=compact)](https://github.com/krotrn?tab=repositories)  
 
 ### 🏆 GitHub Achievements:
-[![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=algolia&no-frame=true&no-bg=false&margin-w=4)](https://github.com/krotrn/)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=juicyfresh&&title=-Experience,-Reviews,-Issues)](https://github.com/krotrn/)
 
 ---
 
