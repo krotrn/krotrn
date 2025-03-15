@@ -87,7 +87,7 @@ Here are some of my standout projects:
 ## 🎓 Education
 - **Bachelor of Technology in Computer Science and Engineering**  
   National Institute of Technology, Arunachal Pradesh  
-  *Expected Graduation*: 2025  
+  *Expected Graduation*: 2027  
   *Relevant Coursework*: Data Structures, Algorithms, Web Development, Database Systems
 
 ---
