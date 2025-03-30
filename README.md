@@ -6,6 +6,7 @@ I’m **Karan Kumar Sah**, a **Computer Science and Engineering** student at the
 Currently, I’m:  
 - 🌱 Mastering **Next.js** to enhance my full-stack expertise.  
 - 🔢 Sharpening my problem-solving skills on **LeetCode** and competitive programming platforms.  
+- 🚀 Working on [Chat App](https://github.com/krotrn/Chat_App)   project with advanced features.  
 - 🤖 Exploring **AI/ML** concepts to build future-ready applications.  
 
 ---
