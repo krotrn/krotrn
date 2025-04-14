@@ -103,7 +103,7 @@ Here are some of my standout projects:
 ---
 
 ## 📬 Contact
-Reach out to me at [krotrn.ks@gmail.com](mailto:krotrn.ks@gmail.com) or connect via LinkedIn.  
+Reach out to me at [krotrn.ks@gmail.com](mailto:krotrn.ks@gmail.com) or connect via [LinkedIn](https://linkedin.com/in/krotrn).  
 
 ---
 
