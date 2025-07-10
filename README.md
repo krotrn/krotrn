@@ -1,41 +1,50 @@
 # 💫 About Me
-👋 Hello, and welcome to my GitHub profile!  
 
-I’m **Karan Kumar Sah**, a **Computer Science and Engineering** student at the **National Institute of Technology, Arunachal Pradesh**. I’m passionate about crafting **scalable and efficient software solutions**, with a strong foundation in **Full Stack Web Development** and **Data Structures & Algorithms**. My goal is to become a full-stack developer specializing in innovative web applications, and I’m always excited to contribute to open-source projects or collaborate on impactful ideas.
-
-Currently, I’m:  
-- 🌱 Mastering **Next.js** to enhance my full-stack expertise.  
-- 🔢 Sharpening my problem-solving skills on **LeetCode** and competitive programming platforms.  
-- 🚀 Working on [Chat App](https://github.com/krotrn/Chat_App)   project with advanced features.  
-- 🤖 Exploring **AI/ML** concepts to build future-ready applications.  
+👋 Hello! I’m **Karan Kumar Sah**, a Computer Science & Engineering student at NIT Arunachal Pradesh. I love turning ideas into reality through code, crafting scalable web solutions, and collaborating on impactful projects.
 
 ---
 
-## ✨ Quote
-**"Turning ideas into reality through code."**  
-*A mantra that reflects my love for transforming concepts into functional solutions.*
+## 🚀 What I’m Up To
+
+- 🌱 Sharpening **PostgreSQL**, **networking**, and **backend** skills  
+- 🔢 Advancing Data Structures & Algorithms through **LeetCode contests** and guided sheets  
 
 ---
 
-## 🌱 Learning Roadmap
-Here’s what I’m currently focused on:  
-- 🌐 building a Chat App website.  
-- 🔢 Improving problem-solving with **Segment Trees** and advanced algorithms.  
-- 🚀 Working on real-world projects like a RESTful API for a blog application using Node.js and MongoDB.  
-- 📊 Diving into **AI/ML**, with an interest in machine learning algorithms.
+## 💼 Experience
 
-<!--
----
-## 🚀 Featured Project
-**Personal Portfolio Website**  
-*Description*: A responsive portfolio site showcasing my projects and skills.  
-*Technologies*: Next.js, Tailwind CSS, React  
-*Links*: [GitHub Repository](https://github.com/krotrn/portfolio) | [Live Demo](https://portfolio-krotrn.vercel.app)  
-*Note*: Replace the placeholder links with your actual project URLs.
--->
+### 🎯 Full‑Stack Developer Intern  
+**Duration:** Jun 2025 – Present  
+Building and maintaining features for real‑world web applications, collaborating in Agile sprints, participating in code reviews, and deploying to Vercel.
+
 ---
 
-## 💻 Tech Stack
+## 🛠️ Projects in Development
+
+### 🏥 College Medical Unit Website  
+A responsive portal to manage student health requests, appointments, and records.  
+_Tech_: Next.js · TypeScript · MongoDB · Tailwind CSS · Auth.js  
+
+### 🚚 College Connect Delivery Platform  
+Campus‑wide delivery request & tracking system for students and staff.  
+_Tech_: Next.js · Express.js · PostgreSQL · Prisma · Auth.js  
+
+### 💬 Chat App  
+[GitHub Repo: krotrn/Chat_App](https://github.com/krotrn/Chat_App)  
+A real‑time messaging application with group chat, reactions & read‑receipts.  
+_Tech_: Next.js · TypeScript · Express.js · Prisma · MongoDB · Auth.js · Socket.IO  
+
+---
+
+## 🏫 Education
+
+**B.Tech, Computer Science & Engineering**  
+National Institute of Technology, Arunachal Pradesh  
+_Expected Graduation:_ 2027
+
+---
+
+## 🛠️ Tech Stack & Stickers
 
 ### Languages
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -49,62 +58,35 @@ Here’s what I’m currently focused on:
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-### Back-End
+### Back‑End
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-<!--![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  -->
 
 ### Styling
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ---
 
-## 🛠️ Projects
-Here are some of my standout projects:  
-- **LeetCode Solutions**  
-  *Description*: A collection of my LeetCode solutions, organized by topic and difficulty.  
-  *Technologies*: C++  
-  *Link*: [GitHub Repository](https://github.com/krotrn/CPP)  
+## 🎖️ GitHub Achievements
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=juicyfresh&no-frame=true)](https://github.com/krotrn)
 
 ---
 
-## 🚀 LeetCode Progress
+## 📈 Stats & Badges
+
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)  
-[![LeetCode Solved](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fkrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/krotrn/)  
-[![LeetCode Ranking](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Ranking&query=ranking&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fkrotrn&logo=leetcode&logoColor=yellow)](https://leetcode.com/krotrn/)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn)  
 
 ---
 
-## 📊 GitHub Stats
-[![Krotrn's GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn?tab=repositories)  
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krotrn&theme=algolia&hide_border=true&layout=compact)](https://github.com/krotrn?tab=repositories)  
+## 🤝 Let’s Connect
 
-### 🏆 GitHub Achievements
-[![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=juicyfresh&title=-Experience,-Reviews,-Issues)](https://github.com/krotrn/)
+- 🔗 [LinkedIn](https://linkedin.com/in/krotrn)  
+- 🔗 [GitHub](https://github.com/krotrn)  
+- 📫 <karan.ks.dev@gmail.com>
 
----
+> **“Turning ideas into reality through code.”**
 
-## 🎓 Education
-- **Bachelor of Technology in Computer Science and Engineering**  
-  National Institute of Technology, Arunachal Pradesh  
-  *Expected Graduation*: 2027  
-  *Relevant Coursework*: Data Structures, Algorithms, Web Development, Database Systems
-
----
-
-## 🌐 Socials
-### Connect with me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/krotrn)  
-[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/krotrn)  
-[![X (Twitter)](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white&style=for-the-badge)](https://x.com/krotrn)  
-<!--[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white&style=for-the-badge)](https://instagram.com/krotrn.ks) -->  
-
----
-
-## 📬 Contact
-Reach out to me at [krotrn.ks@gmail.com](mailto:krotrn.ks@gmail.com) or connect via [LinkedIn](https://linkedin.com/in/krotrn).  
-
----
-
-[![Profile Views](https://visitcount.itsvg.in/api?id=krotrn&label=Profile%20Views&color=1&icon=2&pretty=true)](https://github.com/krotrn/)
+Feel free to explore my work or reach out—I’m open to internships and collaborations!  
