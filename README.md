@@ -14,16 +14,12 @@
 ## 💼 Experience
 
 ### 🎯 Full‑Stack Developer Intern  
-**Duration:** Jun 2025 – Present  
+**Duration:** Jun 2025 – Aug 2025  
 Building and maintaining features for real‑world web applications, collaborating in Agile sprints, participating in code reviews, and deploying to Vercel.
 
 ---
 
 ## 🛠️ Projects in Development
-
-### 🏥 College Medical Unit Website  
-A responsive portal to manage student health requests, appointments, and records.  
-_Tech_: Next.js · TypeScript · MongoDB · Tailwind CSS · Auth.js  
 
 ### 🚚 College Connect Delivery Platform  
 Campus‑wide delivery request & tracking system for students and staff.  
