@@ -22,6 +22,7 @@ Building and maintaining features for real‑world web applications, collaborati
 ## 🛠️ Projects in Development
 
 ### 🚚 College Connect Delivery Platform  
+[GitHub Repo: coding-pundit-nitap/campus-connect](https://github.com/coding-pundit-nitap/campus-connect)  
 Campus‑wide delivery request & tracking system for students and staff.  
 _Tech_: Next.js · Express.js · PostgreSQL · Prisma · Auth.js  
 
