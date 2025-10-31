@@ -67,7 +67,7 @@ _Expected Graduation:_ 2027
 
 ## 🎖️ GitHub Achievements
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=krotrn&theme=juicyfresh&no-frame=true)](https://github.com/krotrn)
+[![Trophy](https://github-profile-trophy.vercel.app/?username=krotrn&theme=onedark)](https://github.com/krotrn)
 
 ---
 
