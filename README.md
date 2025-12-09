@@ -1,80 +1,80 @@
-# 💫 About Me
+# ⚡ About Me
 
-👋 Hello! I’m **Karan Kumar Sah**, a Computer Science & Engineering student at NIT Arunachal Pradesh. I love turning ideas into reality through code, crafting scalable web solutions, and collaborating on impactful projects.
+I am a **Lead Architect** and **Full Stack Engineer** at NIT Arunachal Pradesh. I don't just write code; I build teams and architect enterprise-grade systems. Currently leading a team of 8 developers to digitize the institute's entire academic infrastructure.
 
----
-
-## 🚀 What I’m Up To
-
-- 🌱 Sharpening **PostgreSQL**, **networking**, and **backend** skills  
-- 🔢 Advancing Data Structures & Algorithms through **LeetCode contests** and guided sheets  
+> **Current Focus:** Architecting the [NIT Arunachal Pradesh CMS & ERP]—a high-performance institutional platform serving the entire campus.
 
 ---
 
-## 💼 Experience
+## 💼 Professional Experience
 
-### 🎯 Full‑Stack Developer Intern  
-**Duration:** Jun 2025 – Aug 2025  
-Building and maintaining features for real‑world web applications, collaborating in Agile sprints, participating in code reviews, and deploying to Vercel.
+### 🏛️ Lead Architect & Project Lead | NIT Arunachal Pradesh
+**Dec 2025 – Present**
+*Selected by the Director to architect and build the official Enterprise CMS & Academic ERP for the institute.*
 
----
+* **🔒 Private Institutional Repository** (Closed Source for Security/Compliance)
+* **Leadership:** Managing a hierarchy of **8 developers**, including Backend and Frontend Leads. Responsible for overall system architecture, server management, and delivery timelines.
+* **System Design:** Architected a dynamic **RBAC (Role-Based Access Control)** system allowing autonomous data management for Departments, HODs, and Faculty.
+* **Complex Integrations:** Automated research tracking by engineering a sync engine for **Google Scholar** publications and built a secure Audit Log for administrative accountability.
+* **Stack:** Next.js · Fastify · PostgreSQL · Docker
 
-## 🛠️ Projects in Development
+### 🚀 Full‑Stack Developer Intern | Smallbus (AR Group Co.)
+**Jun 2025 – Aug 2025**
+*Engineered the company's first-ever web platform, enabling the launch of online booking services.*
 
-### 🚚 College Connect Delivery Platform  
-[GitHub Repo: coding-pundit-nitap/campus-connect](https://github.com/coding-pundit-nitap/campus-connect)  
-Campus‑wide delivery request & tracking system for students and staff.  
-_Tech_: Next.js · Express.js · PostgreSQL · Prisma · Auth.js  
-
-### 💬 Chat App  
-[GitHub Repo: krotrn/Chat_App](https://github.com/krotrn/Chat_App)  
-A real‑time messaging application with group chat, reactions & read‑receipts.  
-_Tech_: Next.js · TypeScript · Express.js · Prisma · MongoDB · Auth.js · Socket.IO  
-
----
-
-## 🏫 Education
-
-**B.Tech, Computer Science & Engineering**  
-National Institute of Technology, Arunachal Pradesh  
-_Expected Graduation:_ 2027
+* **Impact:** accelerated MVP delivery by **~2 weeks** and reduced new developer onboarding time by **50%** through architectural restructuring.
+* **Core Systems:** Built mission-critical Auth, Booking, and Account systems, integrating 15+ core API endpoints.
 
 ---
 
-## 🛠️ Tech Stack & Stickers
+## 🛠️ High-Impact Projects
 
-### Languages
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+### 🚚 Campus Connect Logistics Platform
+**Role:** Lead Architect
+*A campus-scale delivery request & tracking system designed for 1,100+ students and staff.*
 
-### Frameworks & Libraries
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+* **Architecture:** Self-hosted deployment using **Docker** containers.
+* **Performance:** Implemented **Nginx** for reverse proxying and **Redis** for a high-throughput notification queue.
+* **Stack:** Next.js · Express.js · PostgreSQL · Prisma · Docker
 
-### Back‑End
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+[View Repository](https://github.com/coding-pundit-nitap/campus-connect)
 
-### Styling
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### 💬 Distributed Chat Engine
+*A backend-agnostic, real-time messaging engine decoupled from frontend logic.*
+
+* **System Design:** Hybrid persistence model using **PostgreSQL** (user integrity) and **MongoDB** (high-volume chat logs).
+* **Stack:** Node.js · Socket.IO · TypeScript · MongoDB · Prisma
+
+[View Repository](https://github.com/krotrn/Chat_App)
 
 ---
 
-## 🎖️ GitHub Achievements
+## 🏆 Key Achievements
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=krotrn&theme=juicyfresh&no-frame=true)](https://github.com/krotrn)
+* 🥇 **Hackathon Organizer:** Organized the first-ever Hackathon at NIT Arunachal Pradesh TechFest, resulting in the commission of the official college ERP project.
+* 🥇 **Winner, CAN Hackathon:** Built and deployed a Logistics MVP in just **6 hours**.
+* 🧠 **LeetCode:** 500+ Problems Solved (Max Rating: 1628).
 
 ---
 
-## 📈 Stats & Badges
+## 🛠️ Technical Arsenal
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)  
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true)](https://github.com/krotrn)  
+### Languages & Core
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+### Infrastructure & Backend
+![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Frameworks
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+---
+
+## 📈 Engineering Metrics
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&count_private=true)](https://github.com/krotrn)
+
 
 ---
 
