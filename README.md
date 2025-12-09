@@ -1,6 +1,6 @@
 # ⚡ About Me
 
-I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh, focused on shipping scalable systems—not just "coding." I specialize in architecting high-performance web solutions using **Next.js**, **PostgreSQL**, and **Docker**.
+I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh, focused on shipping scalable systems—not just "coding." I specialize in Building scalable full-stack systems using **Next.js**, **PostgreSQL**, and **Docker**.
 
 > **Current Focus:** Scaling campus-wide infrastructure and optimizing backend throughput with Redis & Nginx.
 
@@ -12,7 +12,7 @@ I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh,
 **Jun 2025 – Aug 2025**
 *Engineered the company's first-ever web platform, enabling the launch of online booking services.*
 
-* **Architected the MVP:** Built the initial frontend architecture with **20+ reusable React components**, accelerating the MVP delivery by **~2 weeks**.
+* **Built the MVP:** Built the initial frontend architecture with **20+ reusable React components**, accelerating the MVP delivery by **~2 weeks**.
 * **Optimization:** Restructured the monorepo and authored documentation, reducing new developer onboarding time by **50%**.
 * **Core Systems:** Implemented mission-critical features (Auth, Booking, Accounts) and integrated **15+ core API endpoints** for the client-side data layer.
 
@@ -21,7 +21,7 @@ I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh,
 ## 🛠️ High-Impact Projects
 
 ### 🚚 Campus Connect Logistics Platform
-**Role:** Lead Architect (Team of 5)
+**Role:** Lead Developer (Team of 5)
 *A campus-scale delivery request & tracking system designed for 1,100+ students and staff.*
 
 * **Architecture:** Self-hosted deployment using **Docker** containers.
