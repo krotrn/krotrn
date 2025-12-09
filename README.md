@@ -65,7 +65,7 @@ I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh,
 ## 📈 Engineering Metrics
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&count_private=true)](https://github.com/krotrn)
+[![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&count_private=true)](https://github.com/krotrn)
 
 ---
 
