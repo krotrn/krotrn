@@ -34,7 +34,7 @@ I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh,
 *A backend-agnostic, real-time messaging engine decoupled from frontend logic.*
 
 * **System Design:** Hybrid persistence model using **PostgreSQL** (user integrity) and **MongoDB** (high-volume chat logs).
-* **Security:** Implemented **OAuth2** and **JWT** with token-refresh rotation.
+* **Security:** Implemented **OAuth2** and **JWT** with **Auth.js** rotation.
 * **Stack:** Node.js · Socket.IO · TypeScript · MongoDB · Prisma
 
 [View Repository](https://github.com/krotrn/Chat_App)
