@@ -78,3 +78,4 @@ I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh,
 
 
 Feel free to explore my work or reach out—I’m open to internships and collaborations!  
+[![Karan Kumar Sah profile views](https://u8views.com/api/v1/github/profiles/169296621/views/day-week-month-total-count.svg)](https://github.com/krotrn)
