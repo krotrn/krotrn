@@ -2,7 +2,11 @@
 
 # Hi, I'm Karan 👋
 
-### Backend-leaning Full Stack Engineer · I build systems that run in production
+### Full Stack Engineer who enjoys the backend side of things
+
+<a href="https://github.com/krotrn">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=2F81F7&center=true&vCenter=true&width=600&lines=Building+systems+that+run+in+production;Backend+%E2%80%A2+Infrastructure+%E2%80%A2+AI+tooling;CSE+%40+NIT+Arunachal+Pradesh+%E2%80%A2+Class+of+2027" alt="Typing SVG" />
+</a>
 
 <br/>
 
@@ -10,7 +14,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-krotrn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/krotrn)
 [![Email](https://img.shields.io/badge/Email-karan.ks.dev%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:karan.ks.dev@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Knight%20·%201857-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/krotrn)
-[![X](https://img.shields.io/badge/X-@krotrn-000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/krotrn)
 
 </div>
 
@@ -18,64 +21,57 @@
 
 ### 🧭 About
 
-I'm a final-year CSE student at **NIT Arunachal Pradesh** who likes the unglamorous parts of software: row locks, job queues, rate limits, backups, and the dashboards that tell you something broke before users do.
+I'm a final-year CSE student at **NIT Arunachal Pradesh**. I like building things people actually use, and making sure they keep working once they're live.
 
-- 🏗️ Shipped my college's **official website + CMS** and a **campus delivery platform** — both self-hosted on institutional servers
-- 🧠 Recently building **AI tooling for codebases**: hybrid retrieval, agentic routing, MCP servers
+- 🏗️ Built my college's **official website** and a **campus delivery platform**, both running on our own servers
+- 🤖 Currently exploring **AI tools that understand codebases**
 - 🤝 Former President of **[Coding Pundit(2025-2026)](https://github.com/coding-pundit-nitap)**, the institute coding club
-- 🎯 Open to **full-time Software Engineering roles** (2027 graduate) — backend, platform, or full stack
+- 🎯 Open to **full-time Software Engineering roles** (2027 graduate)
 
 ---
 
 ### 🚀 Featured Work
 
 #### 🏔️ [Campus Connect](https://github.com/coding-pundit-nitap/campus-connect) · [live ↗](https://connect.nitap.ac.in)
-**The problem:** hostels sit ~100 m uphill from the market. 10 orders meant 10 climbs for a vendor, coordinated over WhatsApp.
-**The fix:** a *Batch & Climb* marketplace — orders collect into time-slot batches, a worker locks the batch at cutoff, and the vendor makes **one trip for N orders**, handing over with per-order OTPs.
+Our hostels sit ~100 m uphill from the market, so vendors had to climb once for every single order. Campus Connect groups orders into time slots so a vendor makes **one trip for many orders**, with OTP-verified delivery.
 
 ```mermaid
 flowchart LR
-    S[Students order] --> B[(Open batch<br/>Postgres)]
-    B -- cutoff --> W[BullMQ worker<br/>SELECT ... FOR UPDATE]
-    W --> O[Lock batch + OTP per order]
-    O --> N[Redis Pub/Sub → SSE]
-    N --> V[Vendor: 1 trip, N orders]
-    V --> D[OTP verified ✔]
+    A[Students place orders] --> B[Orders grouped by time slot]
+    B --> C[Batch locked at cutoff]
+    C --> D[Vendor makes one trip]
+    D --> E[Delivery confirmed by OTP]
 ```
 
-- Race-free batch locking at up to **500 orders/min** using deterministic-order pessimistic row locks inside transactions (no deadlocks, no double-processing)
-- **29-model** PostgreSQL schema with composite + partial indexes → **sub-50 ms** lookups on hot paths
-- Real-time notifications: SSE over Redis Pub/Sub, Last-Event-ID replay on reconnect, DLQ with exponential backoff
-- **15+ services** in Docker Compose: Nginx, workers, MinIO, Prometheus, Grafana, Loki, Alertmanager
+- Handles up to **500 orders/min** without duplicate or lost orders
+- Fast lookups (**under 50 ms**) and live notifications for students and vendors
+- Self-hosted with full monitoring and alerts
 
-`Next.js 16` `TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Docker` `Nginx` `MinIO`
+`Next.js` `PostgreSQL` `Redis` `BullMQ` `Docker` `Nginx`
 
-#### 🤖 [AEIA — AI Engineering Intelligence Assistant](https://github.com/krotrn/campus-connect-ai)
-Ask questions about a ~94k LOC codebase and get answers with verified citations.
-- Hybrid retrieval: BGE-small dense + BM25 sparse, fused with weighted RRF (70/30) → **100% Recall@5**, 0.79 MRR on a 20-query golden set
-- **100% faithfulness / 0% hallucination** on an LLM-as-judge RAG Triad eval
-- LangGraph router across 4 tools (code search, git history, commit diff, dependency graph), SSE streaming at **<400 ms TTFT**
-- Exposed as an **MCP server**; webhook-driven incremental re-indexing with a build-then-swap BM25 hot reload
+#### 🤖 [AEIA - AI Engineering Intelligence Assistant](https://github.com/krotrn/campus-connect-ai)
+Ask questions about a large codebase in plain English and get answers that cite the exact code they came from.
+- Finds the right code for **every query** in its test set, with **zero hallucinated answers** in evaluation
+- Can also answer questions about git history, code changes, and file dependencies
 
-`FastAPI` `LangGraph` `Qdrant` `Gemini` `Tree-sitter` `Next.js`
+`Python` `FastAPI` `LangGraph` `Qdrant` `Gemini`
 
-#### 🏛️ NIT Arunachal Pradesh — Official Website & CMS · [live ↗](https://www.nitap.ac.in)
-Software Engineering Intern, Dec 2025 – May 2026. Led an 8-member team.
-- Hybrid access control: system/department roles **+ per-route resource ACLs**, so staff edit only their own pages across 60+ pages
-- One monorepo, two rendering strategies: static/ISR public site, SSR admin portal, Fastify REST API
-- Nginx with **5 route-scoped rate-limit zones** (1 req/s on auth); disaster-recovery runbooks + 1,000+ lines of backup/restore/verify scripts
+#### 🏛️ NIT Arunachal Pradesh - Official Website · [live ↗](https://www.nitap.ac.in)
+Led an 8-member team during my internship to build the college's website and admin portal.
+- Each department can edit only its own pages, without needing full admin access
+- Protected against abuse with rate limiting, and backed by tested backup and recovery scripts
 
-`Next.js` `Fastify` `PostgreSQL` `Prisma` `Nginx` `Docker` `MinIO`
+`Next.js` `Fastify` `PostgreSQL` `Docker` `Nginx`
 
 #### 📡 [apsta](https://github.com/krotrn/apsta)
-Linux CLI that keeps you on Wi-Fi **and** broadcasts a hotspot at the same time. Parses `iw list` interface combinations to pick a strategy (nmcli virtual interface, or hostapd + dnsmasq + NAT for cards like the Intel AX200).
+A Linux tool that lets you stay on Wi-Fi and share a hotspot at the same time.
 
-`Python` `Linux networking` `hostapd` `iptables`
+`Python` `Linux`
 
-#### 💬 Real-time Chat — [client](https://github.com/krotrn/Chat_App) · [backend](https://github.com/krotrn/ChatApp-backend) · [live ↗](https://chat-kr.vercel.app)
-Decoupled Socket.IO backend with direct/group chats, reactions, read receipts and attachments. PostgreSQL for users, MongoDB for message history; client handles reconnection with backoff and optimistic updates.
+#### 💬 Real-time Chat - [client](https://github.com/krotrn/Chat_App) · [backend](https://github.com/krotrn/ChatApp-backend) · [live ↗](https://chat-kr.vercel.app)
+A messaging app with group chats, reactions, read receipts, and file sharing.
 
-`Node.js` `Express` `Socket.IO` `MongoDB` `PostgreSQL` `Next.js` `Redux Toolkit`
+`Node.js` `Socket.IO` `MongoDB` `Next.js`
 
 ---
 
@@ -114,9 +110,9 @@ Also: BullMQ · MinIO (S3) · Socket.IO · SSE · LangGraph · Qdrant · RBAC ·
 
 ### 🏆 Highlights
 
-- 🥇 **Winner, CAN Hackathon (NERIST), Mar 2025** — shipped a logistics MVP in 6 hours; it became the seed of Campus Connect
-- 🧠 **Amazon ML Summer School 2026** — selected in the top 3,000 of 1,34,421 applicants
-- ⚔️ **LeetCode Knight** — contest rating 1857 (top ~6%), 700+ problems
+- 🥇 **Winner, CAN Hackathon (NERIST)** - built a working delivery MVP in 6 hours.
+- 🧠 **Amazon ML Summer School 2026** - selected in the top 3,000 out of 1.3 lakh+ applicants
+- ⚔️ **LeetCode Knight** - rating 1857 (top ~6%), 700+ problems solved
 - ⭐ 90+ stars across open-source projects
 
 ---
@@ -134,7 +130,7 @@ Also: BullMQ · MinIO (S3) · Socket.IO · SSE · LangGraph · Qdrant · RBAC ·
 
 <div align="center">
 
-**Building something with hard backend problems? Let's talk.**
+**Let's build something together.**
 [karan.ks.dev@gmail.com](mailto:karan.ks.dev@gmail.com) · [krotrn.vercel.app](https://krotrn.vercel.app)
 
 <img src="https://u8views.com/api/v1/github/profiles/169296621/views/day-week-month-total-count.svg" />
