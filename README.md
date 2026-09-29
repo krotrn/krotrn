@@ -3,11 +3,6 @@
 # Hi, I'm Karan 👋
 
 ### Full Stack Engineer who enjoys the backend side of things
-
-<a href="https://github.com/krotrn">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=2F81F7&center=true&vCenter=true&width=600&lines=Building+systems+that+run+in+production;Backend+%E2%80%A2+Infrastructure+%E2%80%A2+AI+tooling;CSE+%40+NIT+Arunachal+Pradesh+%E2%80%A2+Class+of+2027" alt="Typing SVG" />
-</a>
-
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-krotrn.vercel.app-111?style=flat-square&logo=vercel&logoColor=white)](https://krotrn.vercel.app)
