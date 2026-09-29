@@ -2,7 +2,7 @@
 
 # Hi, I'm Karan 👋
 
-### Backend-leaning Full Stack Engineer · I build systems that run in production, not just on localhost
+### Backend-leaning Full Stack Engineer · I build systems that run in production
 
 <br/>
 
