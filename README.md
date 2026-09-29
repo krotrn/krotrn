@@ -29,15 +29,6 @@ I'm a final-year CSE student at **NIT Arunachal Pradesh**. I like building thing
 
 #### 🏔️ [Campus Connect](https://github.com/coding-pundit-nitap/campus-connect) · [live ↗](https://connect.nitap.ac.in)
 Our hostels sit ~100 m uphill from the market, so vendors had to climb once for every single order. Campus Connect groups orders into time slots so a vendor makes **one trip for many orders**, with OTP-verified delivery.
-
-```mermaid
-flowchart LR
-    A[Students place orders] --> B[Orders grouped by time slot]
-    B --> C[Batch locked at cutoff]
-    C --> D[Vendor makes one trip]
-    D --> E[Delivery confirmed by OTP]
-```
-
 - Handles up to **500 orders/min** without duplicate or lost orders
 - Fast lookups (**under 50 ms**) and live notifications for students and vendors
 - Self-hosted with full monitoring and alerts
