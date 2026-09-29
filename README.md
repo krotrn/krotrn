@@ -59,7 +59,7 @@ Ask questions about a ~94k LOC codebase and get answers with verified citations.
 
 `FastAPI` `LangGraph` `Qdrant` `Gemini` `Tree-sitter` `Next.js`
 
-#### 🏛️ NIT Arunachal Pradesh — Official Website & CMS · [beta ↗](https://beta.nitap.ac.in)
+#### 🏛️ NIT Arunachal Pradesh — Official Website & CMS · [live ↗](https://www.nitap.ac.in)
 Software Engineering Intern, Dec 2025 – May 2026. Led an 8-member team.
 - Hybrid access control: system/department roles **+ per-route resource ACLs**, so staff edit only their own pages across 60+ pages
 - One monorepo, two rendering strategies: static/ISR public site, SSR admin portal, Fastify REST API
