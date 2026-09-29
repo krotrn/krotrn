@@ -1,81 +1,142 @@
-# ⚡ About Me
+<div align="center">
 
-I am a **Full Stack Engineer** and **Product Builder** at NIT Arunachal Pradesh, focused on shipping scalable systems—not just "coding." I specialize in Building scalable full-stack systems using **Next.js**, **PostgreSQL**, and **Docker**.
+# Hi, I'm Karan 👋
 
-> **Current Focus:** Scaling campus-wide infrastructure and optimizing backend throughput with Redis & Nginx.
+### Backend-leaning Full Stack Engineer · I build systems that run in production, not just on localhost
 
----
+<br/>
 
-## 💼 Professional Experience
+[![Portfolio](https://img.shields.io/badge/Portfolio-krotrn.vercel.app-111?style=flat-square&logo=vercel&logoColor=white)](https://krotrn.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-krotrn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/krotrn)
+[![Email](https://img.shields.io/badge/Email-karan.ks.dev%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:karan.ks.dev@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%20·%201857-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/krotrn)
+[![X](https://img.shields.io/badge/X-@krotrn-000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/krotrn)
 
-### 🚀 Full‑Stack Developer Intern | Smallbus (AR Group Co.)
-**Jun 2025 – Aug 2025**
-*Engineered the company's first-ever web platform, enabling the launch of online booking services.*
-
-* **Built the MVP:** Built the initial frontend architecture with **20+ reusable React components**, accelerating the MVP delivery by **~2 weeks**.
-* **Optimization:** Restructured the monorepo and authored documentation, reducing new developer onboarding time by **50%**.
-* **Core Systems:** Implemented mission-critical features (Auth, Booking, Accounts) and integrated **15+ core API endpoints** for the client-side data layer.
+</div>
 
 ---
 
-## 🛠️ High-Impact Projects
+### 🧭 About
 
-### 🚚 Campus Connect Logistics Platform
-**Role:** Lead Developer (Team of 5)
-*A campus-scale delivery request & tracking system designed for 1,100+ students and staff.*
+I'm a final-year CSE student at **NIT Arunachal Pradesh** who likes the unglamorous parts of software: row locks, job queues, rate limits, backups, and the dashboards that tell you something broke before users do.
 
-* **Architecture:** Self-hosted deployment using **Docker** containers.
-* **Performance:** Implemented **Nginx** for reverse proxying and **Redis** for a high-throughput notification queue.
-* **Stack:** Next.js 15 · PostgreSQL · Prisma · Docker · Redis
-
-[View Repository](https://github.com/coding-pundit-nitap/campus-connect)
-
-### 💬 Distributed Chat Engine
-*A backend-agnostic, real-time messaging engine decoupled from frontend logic.*
-
-* **System Design:** Hybrid persistence model using **PostgreSQL** (user integrity) and **MongoDB** (high-volume chat logs).
-* **Security:** Implemented **OAuth2** and **JWT** with **Auth.js** rotation.
-* **Stack:** Node.js · Socket.IO · TypeScript · MongoDB · Prisma
-
-[View Repository](https://github.com/krotrn/Chat_App)
+- 🏗️ Shipped my college's **official website + CMS** and a **campus delivery platform** — both self-hosted on institutional servers
+- 🧠 Recently building **AI tooling for codebases**: hybrid retrieval, agentic routing, MCP servers
+- 🤝 Former President of **[Coding Pundit(2025-2026)](https://github.com/coding-pundit-nitap)**, the institute coding club
+- 🎯 Open to **full-time Software Engineering roles** (2027 graduate) — backend, platform, or full stack
 
 ---
 
-## 🏆 Key Achievements
+### 🚀 Featured Work
 
-* 🥇 **Winner, CAN Hackathon (NERIST):** Built and deployed a fully functional Logistics MVP in just **6 hours**.
-* 🧠 **LeetCode:** 500+ Problems Solved (Max Rating: 1628).
-* 🤝 **President, Coding Club:** Revived the official NIT AP coding community, growing it to 50+ active members.
+#### 🏔️ [Campus Connect](https://github.com/coding-pundit-nitap/campus-connect) · [live ↗](https://connect.nitap.ac.in)
+**The problem:** hostels sit ~100 m uphill from the market. 10 orders meant 10 climbs for a vendor, coordinated over WhatsApp.
+**The fix:** a *Batch & Climb* marketplace — orders collect into time-slot batches, a worker locks the batch at cutoff, and the vendor makes **one trip for N orders**, handing over with per-order OTPs.
+
+```mermaid
+flowchart LR
+    S[Students order] --> B[(Open batch<br/>Postgres)]
+    B -- cutoff --> W[BullMQ worker<br/>SELECT ... FOR UPDATE]
+    W --> O[Lock batch + OTP per order]
+    O --> N[Redis Pub/Sub → SSE]
+    N --> V[Vendor: 1 trip, N orders]
+    V --> D[OTP verified ✔]
+```
+
+- Race-free batch locking at up to **500 orders/min** using deterministic-order pessimistic row locks inside transactions (no deadlocks, no double-processing)
+- **29-model** PostgreSQL schema with composite + partial indexes → **sub-50 ms** lookups on hot paths
+- Real-time notifications: SSE over Redis Pub/Sub, Last-Event-ID replay on reconnect, DLQ with exponential backoff
+- **15+ services** in Docker Compose: Nginx, workers, MinIO, Prometheus, Grafana, Loki, Alertmanager
+
+`Next.js 16` `TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Docker` `Nginx` `MinIO`
+
+#### 🤖 [AEIA — AI Engineering Intelligence Assistant](https://github.com/krotrn/campus-connect-ai)
+Ask questions about a ~94k LOC codebase and get answers with verified citations.
+- Hybrid retrieval: BGE-small dense + BM25 sparse, fused with weighted RRF (70/30) → **100% Recall@5**, 0.79 MRR on a 20-query golden set
+- **100% faithfulness / 0% hallucination** on an LLM-as-judge RAG Triad eval
+- LangGraph router across 4 tools (code search, git history, commit diff, dependency graph), SSE streaming at **<400 ms TTFT**
+- Exposed as an **MCP server**; webhook-driven incremental re-indexing with a build-then-swap BM25 hot reload
+
+`FastAPI` `LangGraph` `Qdrant` `Gemini` `Tree-sitter` `Next.js`
+
+#### 🏛️ NIT Arunachal Pradesh — Official Website & CMS · [beta ↗](https://beta.nitap.ac.in)
+Software Engineering Intern, Dec 2025 – May 2026. Led an 8-member team.
+- Hybrid access control: system/department roles **+ per-route resource ACLs**, so staff edit only their own pages across 60+ pages
+- One monorepo, two rendering strategies: static/ISR public site, SSR admin portal, Fastify REST API
+- Nginx with **5 route-scoped rate-limit zones** (1 req/s on auth); disaster-recovery runbooks + 1,000+ lines of backup/restore/verify scripts
+
+`Next.js` `Fastify` `PostgreSQL` `Prisma` `Nginx` `Docker` `MinIO`
+
+#### 📡 [apsta](https://github.com/krotrn/apsta)
+Linux CLI that keeps you on Wi-Fi **and** broadcasts a hotspot at the same time. Parses `iw list` interface combinations to pick a strategy (nmcli virtual interface, or hostapd + dnsmasq + NAT for cards like the Intel AX200).
+
+`Python` `Linux networking` `hostapd` `iptables`
+
+#### 💬 Real-time Chat — [client](https://github.com/krotrn/Chat_App) · [backend](https://github.com/krotrn/ChatApp-backend) · [live ↗](https://chat-kr.vercel.app)
+Decoupled Socket.IO backend with direct/group chats, reactions, read receipts and attachments. PostgreSQL for users, MongoDB for message history; client handles reconnection with backoff and optimistic updates.
+
+`Node.js` `Express` `Socket.IO` `MongoDB` `PostgreSQL` `Next.js` `Redux Toolkit`
 
 ---
 
-## 🛠️ Technical Arsenal
+### 💼 Experience
 
-### Languages & Core
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-### Infrastructure & Backend
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-
-### Frameworks
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+| Role | Where | When |
+|---|---|---|
+| Software Engineering Intern | NIT Arunachal Pradesh | Dec 2025 – May 2026 |
+| Full Stack Developer Intern | Smallbus (AR Group Co.) · Remote | Jun 2025 – Aug 2025 |
+| President | Coding Pundit, NIT AP | Aug 2025 – Aug 2026 |
 
 ---
 
-## 📈 Engineering Metrics
+### 🛠️ Toolbox
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krotrn?theme=dark&font=Buda&ext=heatmap)](https://leetcode.com/krotrn)
-[![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=krotrn&theme=algolia&hide_border=true&count_private=true)](https://github.com/krotrn)
+<p>
+  <b>Languages</b><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js,cpp,python,postgres&theme=dark" />
+</p>
+<p>
+  <b>Backend & Data</b><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,prisma,redis,mongodb&theme=dark" />
+</p>
+<p>
+  <b>Infra & DevOps</b><br/>
+  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,prometheus,grafana,githubactions&theme=dark" />
+</p>
+<p>
+  <b>Frontend</b><br/>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,redux,tailwind&theme=dark" />
+</p>
+
+Also: BullMQ · MinIO (S3) · Socket.IO · SSE · LangGraph · Qdrant · RBAC · Pub/Sub
 
 ---
 
+### 🏆 Highlights
 
-## 🤝 Let’s Connect
+- 🥇 **Winner, CAN Hackathon (NERIST), Mar 2025** — shipped a logistics MVP in 6 hours; it became the seed of Campus Connect
+- 🧠 **Amazon ML Summer School 2026** — selected in the top 3,000 of 1,34,421 applicants
+- ⚔️ **LeetCode Knight** — contest rating 1857 (top ~6%), 700+ problems
+- ⭐ 90+ stars across open-source projects
 
-- 🔗 [LinkedIn](https://linkedin.com/in/krotrn)  
-- 🔗 [GitHub](https://github.com/krotrn)  
-- 📫 <karan.ks.dev@gmail.com>
+---
 
-[![Karan Kumar Sah profile views](https://u8views.com/api/v1/github/profiles/169296621/views/day-week-month-total-count.svg)](https://github.com/krotrn)
+### 📈 Activity
 
-Feel free to explore my work or reach out—I’m open to internships and collaborations!  
+<div align="center">
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=krotrn&show_icons=true&theme=algolia&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=krotrn&layout=compact&hide_border=true&theme=algolia&langs_count=6" />
+  <br/>
+  <a href="https://leetcode.com/krotrn"><img src="https://leetcard.jacoblin.cool/krotrn?theme=dark&font=JetBrains%20Mono&ext=contest" /></a>
+</div>
+
+---
+
+<div align="center">
+
+**Building something with hard backend problems? Let's talk.**
+[karan.ks.dev@gmail.com](mailto:karan.ks.dev@gmail.com) · [krotrn.vercel.app](https://krotrn.vercel.app)
+
+<img src="https://u8views.com/api/v1/github/profiles/169296621/views/day-week-month-total-count.svg" />
+
+</div>
